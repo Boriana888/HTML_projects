@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import "https://use.fontawesome.com/releases/v6.1.2/css/all.css";
+
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: black;
+  background-repeat: no-repeat;
+}
+main {
+  background-image: url("background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.hero {
+  padding: 70px 64px;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.offer {
+  background-color: #ffffff;
+  padding: 30px 20px;
+  margin-right: 0;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  text-align: left;
+  margin-bottom: 24px;
+  height: 32rem;
+}
+
+.offer:nth-child(2) {
+  height: 35rem;
+}
+
+h1 {
+  font-size: 48px;
+}
+h2 {
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+}
+span {
+  font-size: 18px;
+  font-weight: 100;
+}
+p {
+  font-weight: lighter;
+  color: gray;
+  padding: 0.8rem 0;
+}
+
+ul {
+  padding: 0;
+}
+
+li > i {
+  margin-right: 1rem;
+  padding-bottom: 1rem;
+}
+.btn {
+  background-color: black;
+  color: #ffffff;
+  justify-self: flex-start;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  border-radius: 4px;
+}

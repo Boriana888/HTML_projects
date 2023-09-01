@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,300&family=Montserrat:wght@100&display=swap");
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+body {
+  font-family: "Lobster";
+  font-size: 16px;
+  background-color: whitesmoke;
+  padding-left: 350px;
+}
+main {
+  text-align: center;
+  width: 800px;
+}
+
+.title {
+  color: #0088dd;
+  text-shadow: 2px 4px 4px #666666;
+  font-size: 3.5rem;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+  font-family: Georgia, Times, serif;
+  margin: 0;
+  text-align: center;
+}
+img {
+  margin-top: 1rem;
+  width: 200px;
+  float: left;
+  margin-right: 20px;
+}
+h2 {
+  font-family: Arial, sans-serif;
+  font-size: 2.3rem;
+  letter-spacing: 0.3rem;
+  color: #0088dd;
+  text-transform: capitalize;
+}
+h3 {
+  font-style: normal;
+  color: #0088dd;
+  margin: 0;
+  font-size: 2.1rem;
+}
+p {
+  padding-left: 0rem;
+  font-family: "Lobstter";
+  font-size: 1.4rem;
+  line-height: 30px;
+  color: #665544;
+  padding-bottom: 20px;
+}
+p:first-letter {
+  color: #725d48;
+  font-weight: bolder;
+  font-size: 48px;
+  font-family: "Lobster";
+}
+span {
+  font-size: 1.1rem;
+  font-style: normal;
+  color: #665544;
+  font-family: Arial, sans-serif;
+}

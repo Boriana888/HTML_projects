@@ -1,0 +1,200 @@
+html {
+  font-family: arial, sans-serif;
+}
+
+.header {
+  width: 100%;
+  background-image: url("https://lp.therowhouse.com/hubfs/IMG_6952_FINAL%20(6).jpg");
+  background-size: cover;
+  display: flex;
+  width: 100%;
+  height: 120vh;
+  flex-direction: column;
+  background-position: center;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+.logo {
+  width: 12%;
+  margin-left: 120px;
+  margin-top: 50px;
+}
+.main {
+  display: flex;
+  gap: 10rem;
+  margin-top: 130px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 16px;
+}
+.hero {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+h1 {
+  color: white;
+  font-size: 52px;
+  margin-bottom: 0rem;
+}
+h2 {
+  margin-bottom: 0;
+}
+h6 {
+  margin-top: 0px;
+}
+p {
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  text-transform: none;
+}
+
+.aside {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.list {
+  font-size: 24px;
+  box-sizing: border-box;
+  padding: 0 15px;
+  line-height: 37px;
+  font-size: 14px;
+  font-weight: 400;
+
+  padding-left: 2rem;
+}
+.list > input {
+  border-radius: 1px solid #ccc;
+  width: 400px;
+  height: 30px;
+}
+button {
+  margin-top: 2rem;
+  background-color: #ffcd00;
+  padding: 5px;
+  color: black;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 12px;
+  height: 40px;
+  width: 200px;
+  align-items: center;
+  margin-left: 25%;
+}
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.container > div {
+  width: 100%;
+  display: flex;
+  gap: 10rem;
+  height: 50vh;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.mail {
+  display: flex;
+  margin-right: 150px;
+
+  margin-top: 50px;
+
+  width: 60%;
+}
+.fab {
+  fill: #758592;
+  color: #758592;
+
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  background-size: 50px;
+}
+.cont {
+  border: black;
+  display: flex;
+  align-items: end;
+  margin-left: 0px;
+  padding-right: 0px;
+}
+.cont input {
+  height: 19px;
+  border: 2px solid black;
+}
+.cont button {
+  margin-left: 0;
+  height: 24px;
+}
+.social {
+  display: flex;
+}
+.black {
+}
+.label {
+  display: flex;
+}
+.label > input {
+  border: solid black 4px;
+  height: 18px;
+}
+.arrow {
+  display: flex;
+
+  color: black;
+  width: 50px;
+
+  cursor: pointer;
+}
+/*#243746*/
+footer {
+  background-color: #243746;
+  color: white;
+  display: flex;
+  gap: 3rem;
+  justify-content: space-between;
+  padding: 3rem 0;
+}
+.end {
+  padding-left: 100px;
+  display: flex;
+
+  width: 100%;
+  padding-right: 100px;
+  justify-content: space-between;
+  gap: 8rem;
+}
+
+footer .col-1 {
+  display: flex;
+  flex-direction: column;
+}
+footer .col h2 {
+  margin-left: 15px;
+}
+.list {
+  flex-direction: column;
+}
+
+.underline {
+  display: flex;
+  background-color: #243746;
+  color: white;
+  justify-content: space-between;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.underline > p {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 0px;
+}

@@ -1,0 +1,605 @@
+:root {
+  --primary-color: rgb(255, 0, 191) !important;
+  --primary-dark: rgb(117, 2, 89) !important;
+}
+
+body {
+  background: whitesmoke;
+  margin: 0;
+  font-family: "Poppins";
+}
+.navbar {
+  background: white;
+  padding: 1em;
+  height: 80px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+  border: 1px solid black;
+  border-right: none;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    // place-content: space-between;
+
+    .logo {
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      margin-left: 1em;
+      text-decoration: none;
+      font-weight: bolder;
+      font-size: 3em;
+      color: var(--primary-color);
+
+      :hover {
+        color: var(--primary-dark);
+      }
+    }
+
+    .search-bar {
+      border: 1px solid black;
+      border-radius: 20px;
+      height: 3em;
+      width: 17em;
+      align-self: center;
+    }
+
+    .navigation {
+      display: flex;
+
+      .primary-nav {
+        display: flex;
+        align-items: center;
+        margin-right: 15em;
+
+        li {
+          display: flex;
+          border-left: 1px solid black;
+          padding: 1em;
+          font-weight: bold;
+          justify-content: center;
+
+          :hover {
+            cursor: pointer;
+            color: purple;
+          }
+        }
+      }
+    }
+  }
+}
+.hero {
+  margin-top: 3em;
+
+  .container {
+    margin-left: 11em;
+    margin-right: 11em;
+    max-width: 100%;
+    display: flex;
+
+    img {
+      width: 40%;
+    }
+
+    .right-col {
+      display: flex;
+      flex-direction: column;
+
+      .subhead {
+        font-family: LyftProUI, sans-serif;
+        margin-right: 1em;
+        margin-top: 1em;
+        display: flex;
+        font-weight: bolder;
+        font-size: 4em;
+        justify-content: space-between;
+        border: 1px;
+        padding: 12px;
+        position: relative;
+        width: 204px;
+        float: left;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+      .hero-cta {
+        display: flex;
+        gap: 1em;
+
+        .primary-cta1 {
+          text-align: center;
+          display: flex;
+          justify-content: center;
+          margin-right: 1em;
+          margin-left: 1em;
+
+          font-family: LyftProUI, sans-serif;
+          font-weight: bold;
+          display: flex;
+          align-items: center;
+          border: 1px solid rgb(66, 39, 187);
+          border-radius: 20px;
+          height: 3em;
+          width: 17em;
+
+          background-color: rgb(66, 39, 187);
+          height: 50px;
+          width: 120px;
+          color: whitesmoke;
+        }
+        .primary-cta2 {
+          text-align: center;
+          display: flex;
+          justify-content: center;
+          margin-right: 1em;
+          margin-left: 1em;
+          color: black;
+
+          font-family: LyftProUI, sans-serif;
+          font-weight: bold;
+          display: flex;
+          align-items: center;
+          border: 1px solid black;
+          border-radius: 20px;
+          height: 3em;
+          width: 17em;
+
+          background-color: white;
+          height: 50px;
+          width: 120px;
+          color: black;
+        }
+      }
+    }
+  }
+}
+.features-section {
+  display: flex;
+  margin-top: 1em;
+  background-color: rgb(238, 237, 237);
+  .container {
+    margin-top: 3em;
+    margin-left: 10em;
+    display: flex;
+    gap: 5em;
+    .left-col {
+      // margin-left: 10em;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: left;
+      margin-left: 3em;
+
+      .head {
+        display: flex;
+        font-family: LyftProUI, sans-serif;
+        font-weight: bold;
+        font-size: 1em;
+      }
+      .subhead {
+        display: flex;
+        font-family: LyftProUI, sans-serif;
+        font-weight: bolder;
+        font-size: 2em;
+      }
+      .features-list {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1em;
+
+        li {
+          display: flex;
+          flex-direction: column;
+          margin-top: 1em;
+          gap: 1em;
+        }
+      }
+      .hero-cta2 {
+        display: flex;
+        .primary-cta3 {
+          display: flex;
+          text-align: center;
+          display: flex;
+          justify-content: center;
+          margin-right: 1em;
+          margin-left: 1em;
+          margin-top: 2rem;
+
+          font-family: LyftProUI, sans-serif;
+          font-weight: bold;
+          display: flex;
+          align-items: center;
+          border: 1px solid rgb(66, 39, 187);
+          border-radius: 20px;
+          height: 3em;
+          width: 17em;
+
+          background-color: rgb(66, 39, 187);
+          height: 50px;
+          width: 120px;
+          color: whitesmoke;
+        }
+        .apply-todrive-cta {
+          display: flex;
+          font-weight: bold;
+          margin-top: 3em;
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .right-col {
+      display: flex;
+      flex-direction: column;
+      width: 30%;
+    }
+  }
+}
+.testimonials-section {
+  display: flex;
+  padding-top: 1em;
+  background-color: rgb(238, 237, 237);
+  .container {
+    display: flex;
+    margin-bottom: 5em;
+
+    ul {
+      display: flex;
+      justify-content: space-between;
+      gap: 3em;
+
+      li {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        text-justify: center;
+        text-align: center;
+        margin-left: 2em;
+
+        img {
+          width: 10%;
+          display: flex;
+          margin-left: 12em;
+        }
+      }
+    }
+  }
+}
+.mobile-section {
+  display: flex;
+  margin-top: 1em;
+
+  .container {
+    display: flex;
+    margin-left: 15em;
+
+    .left-col {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: left;
+
+      h3 {
+        display: flex;
+        font-family: LyftProUI, sans-serif;
+        font-weight: bold;
+        font-size: 1em;
+      }
+      h1 {
+        display: flex;
+        font-family: LyftProUI, sans-serif;
+        font-weight: bolder;
+        font-size: 2em;
+      }
+      h5 {
+        display: flex;
+        font-family: LyftProUI, sans-serif;
+        font-size: 1em;
+      }
+      .features-list2 {
+        display: flex;
+        font-family: LyftProUI, sans-serif;
+        margin-top: 1em;
+        flex-direction: column;
+        gap: 1em;
+        margin-bottom: 2em;
+
+        .li {
+          display: flex;
+          flex-direction: column;
+          margin-top: 1em;
+        }
+      }
+      .hero-cta4 {
+        display: flex;
+        padding-left: 1em;
+
+        .primary-cta {
+          display: flex;
+          text-align: center;
+          justify-content: center;
+
+          font-family: LyftProUI, sans-serif;
+          font-weight: bold;
+          display: flex;
+          align-items: center;
+          border: 1px solid rgb(66, 39, 187);
+          border-radius: 20px;
+          height: 3em;
+          margin-top: 2em;
+
+          background-color: rgb(66, 39, 187);
+          height: 50px;
+          width: 150px;
+          justify-content: center;
+
+          padding-left: 1.5em;
+          justify-content: space-between;
+          color: whitesmoke;
+          gap: 3em;
+        }
+        .apply-todrive-cta {
+          display: flex;
+          font-weight: bold;
+          margin-top: 3em;
+          text-decoration: underline;
+          margin-left: 2em;
+        }
+      }
+    }
+    .right-col {
+      img {
+        display: flex;
+        width: 40%;
+        margin-left: 10em;
+      }
+    }
+  }
+}
+.red-carpet {
+  display: flex;
+  .container {
+    display: flex;
+    .left-col {
+      img {
+        display: flex;
+        width: 60%;
+        margin-left: 14em;
+      }
+    }
+    .right-col {
+      display: flex;
+      flex-direction: column;
+      margin-right: 10em;
+      margin-left: 7em;
+      align-items: flex-start;
+      h3 {
+        display: flex;
+        font-family: LyftProUI, sans-serif;
+        font-weight: bolder;
+        font-size: 2em;
+        gap: 2em;
+      }
+      h1 {
+        display: flex;
+        font-family: LyftProUI, sans-serif;
+        font-size: 1em;
+        gap: 1em;
+      }
+      .List {
+        display: flex;
+        margin-bottom: 1em;
+        font-family: LyftProUI, sans-serif;
+        font-size: 1em;
+        flex-direction: column;
+        gap: 1em;
+        li {
+          display: flex;
+          flex-direction: column;
+          margin-top: 1em;
+          gap: 1em;
+        }
+      }
+      .hero-pro {
+        display: flex;
+        flex-direction: column;
+        .primary-cta5 {
+          display: flex;
+          text-align: center;
+          display: flex;
+          justify-content: center;
+          margin-right: 1em;
+          margin-left: 1em;
+          margin-top: 2rem;
+
+          font-family: LyftProUI, sans-serif;
+          font-weight: bold;
+          display: flex;
+          align-items: center;
+          border: 1px solid rgb(66, 39, 187);
+          border-radius: 20px;
+          height: 3em;
+          width: 35em;
+
+          background-color: rgb(66, 39, 187);
+          height: 50px;
+          width: 300px;
+          color: whitesmoke;
+        }
+        h1 {
+          display: flex;
+          font-family: LyftProUI, sans-serif;
+          text-decoration: underline;
+          flex-direction: column;
+          margin-top: 1em;
+        }
+      }
+    }
+  }
+}
+.name-section {
+  display: flex;
+  margin-top: 2em;
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15em;
+    h1 {
+      display: flex;
+      font-family: LyftProUI, sans-serif;
+      font-weight: bolder;
+      font-size: 3em;
+    }
+    h3 {
+      display: flex;
+      font-family: LyftProUI, sans-serif;
+      font-size: 1em;
+    }
+  }
+}
+.car-section {
+  display: flex;
+  margin-top: 1em;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  .container {
+    border: 1px solid white;
+    border-radius: 25px;
+    margin-left: 5em;
+    height: 200px;
+    width: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 2em;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+    img {
+      width: 20%;
+      margin-left: 11em;
+      box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    }
+    b {
+      display: flex;
+      flex-direction: column;
+    }
+    p {
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+      text-justify: center;
+      text-align: center;
+      margin-left: 2em;
+    }
+  }
+}
+.Seafty-section {
+  display: flex;
+  margin-bottom: 6em;
+  background-color: rgb(238, 237, 237);
+  .container {
+    display: flex;
+    flex-direction: column;
+
+    .left-col {
+      display: flex;
+      img {
+        width: 60%;
+        display: flex;
+        margin-left: 15em;
+      }
+    }
+  }
+  .right-col {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2em;
+    margin-right: 30em;
+
+    h1 {
+      display: flex;
+      font-family: LyftProUI, sans-serif;
+      font-weight: bold;
+    }
+    h3 {
+      display: flex;
+      font-family: LyftProUI, sans-serif;
+      font-weight: bolder;
+      font-size: 2em;
+      margin-bottom: 1em;
+    }
+    p {
+      display: flex;
+      font-family: LyftProUI, sans-serif;
+    }
+    .primary-cta {
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      margin-right: 1em;
+
+      margin-top: 2rem;
+
+      font-family: LyftProUI, sans-serif;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      border: 1px solid rgb(66, 39, 187);
+      border-radius: 20px;
+      height: 3em;
+      width: 35em;
+
+      background-color: rgb(66, 39, 187);
+      height: 50px;
+      width: 200px;
+      color: whitesmoke;
+    }
+    .apply-todrive-cta {
+      display: flex;
+      font-family: LyftProUI, sans-serif;
+      font-weight: bold;
+      text-decoration: underline;
+      flex-direction: column;
+      margin-left: 15em;
+      margin-top: -2em;
+    }
+  }
+}
+.red-hair {
+  display: flex;
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10em;
+
+    img {
+      margin-left: 15em;
+      width: 70%;
+      margin-right: 10em;
+      margin-bottom: 3em;
+    }
+    h3 {
+      display: flex;
+      font-family: LyftProUI, sans-serif;
+      font-weight: bolder;
+      font-size: 1.5em;
+      margin-left: 10em;
+      margin-bottom: 1em;
+    }
+    h1 {
+      display: flex;
+      font-family: LyftProUI, sans-serif;
+      margin-left: 15em;
+      margin-right: 15em;
+      margin-bottom: 1em;
+    }
+    p {
+      display: flex;
+      font-family: LyftProUI, sans-serif;
+      margin-left: 18em;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+  }
+}

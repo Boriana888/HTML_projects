@@ -1,0 +1,83 @@
+/*#66545e*/
+@import url("https://https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+body {
+  background-color: white;
+}
+
+main {
+  display: flex;
+}
+
+.container {
+  /* position: relative; */
+  background-color: #f6e0b5;
+  /* height: 500px;
+  width: 900px; */
+  display: flex;
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* margin-left: auto;
+    margin-right: auto; */
+
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+.container-col {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.row {
+  display: flex;
+  gap: 2rem;
+}
+
+.img-container {
+  /* width: 50%; */
+  /* display: flex;
+  gap: 2rem; */
+  position: relative;
+  height: fit-content;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px 15px rgb(0 0 0 / 0.2);
+}
+
+img {
+  width: 300px;
+  height: 170px;
+  object-fit: cover;
+  /* border-radius: 8px; */
+}
+
+.img-headline {
+  font-family: Helvetica, sans-serif;
+  position: absolute;
+  background-color: #66545e;
+  color: white;
+  bottom: 0;
+  /* border-radius: 8px; */
+  width: 100%;
+  padding: 5px;
+}
+
+.aside {
+  width: 40%;
+  padding-left: 3rem;
+}
+
+.aside ul {
+  padding: 0;
+}
+.aside li {
+  display: flex;
+  text-align: center;
+  color: #797479;
+  padding-top: 12px;
+}
+
+.aside h4 {
+  color: #797479;
+}

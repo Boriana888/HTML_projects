@@ -1,0 +1,39 @@
+@import "https://use.fontawesome.com/releases/v6.2.0/css/all.css";
+
+.one {
+    background: linear-gradient(to right, rgb(0, 105, 185), rgb(34, 210, 160));
+  }
+
+.two {
+    background: linear-gradient(to right, rgb(216, 6, 97), rgb(253, 158, 16));
+}
+section.card {
+    display: block;
+    position: relative;
+  }
+  
+  .first {
+    position: absolute;
+    left: 40%;
+    top: 30%;
+    width: 50%;
+    padding: 90px 0;
+  }
+  
+  .second {
+    position: absolute;
+    width: 50%;
+    padding: 25px 0;
+    left: 40%;
+  }
+  
+  img {
+    width: 200px;
+  }
+  
+  i {
+    color: #fff;
+    position: relative;
+    bottom: 10px;
+    right: 28px;
+  }

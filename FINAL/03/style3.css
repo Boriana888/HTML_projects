@@ -1,0 +1,170 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+.header {
+  width: 100%;
+  background-image: url("images/landing-photo.jpg");
+  background-size: cover;
+  height: 33rem;
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+  /* align-items: center; */
+}
+
+.nav {
+  display: flex;
+  margin-top: 2rem;
+  align-items: center;
+  /* align-self: center; */
+  margin-left: 15rem;
+}
+
+.nav .logo {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.nav .menu {
+  display: flex;
+  margin: 0;
+  margin-left: 18rem;
+}
+
+.nav .menu > li > a {
+  text-decoration: none;
+  color: black;
+  padding-left: 2rem;
+}
+
+.nav .menu > li > .btn {
+  color: white;
+  text-align: center;
+  margin-left: 2rem;
+}
+
+.btn {
+  border-radius: 2rem;
+
+  background-color: black;
+  color: white;
+  font-weight: bold;
+
+  padding: 5px 20px;
+}
+
+.hero {
+  margin-top: 6rem;
+  margin-left: 15rem;
+}
+
+.hero h1 {
+  font-size: 40px;
+}
+
+.hero-subheading {
+  font-size: 20px;
+}
+
+.hero-text {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.main {
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+
+  padding: 3rem;
+}
+
+.main-headline {
+  text-align: center;
+}
+
+.main-headline h2 {
+  font-size: 30px;
+}
+
+.main .cities .cities-row-1 {
+  display: flex;
+  gap: 2rem;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.city {
+  width: 30%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.city img {
+  object-fit: cover;
+  width: 330px;
+  height: 300px;
+  border-radius: 8px;
+  gap: 3rem;
+}
+
+.city p {
+  text-align: center;
+  width: 80%;
+}
+
+.city button {
+  background-color: white;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  display: flex;
+
+  justify-content: space-around;
+
+  padding: 3rem 0;
+}
+
+footer .col-1 {
+  display: flex;
+  align-items: center;
+}
+
+footer .col-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer .col-3 .icons {
+  display: flex;
+  gap: 1rem;
+}
+
+footer .col-1 h3 {
+  font-size: 28px;
+}
+
+footer .col-2 {
+  display: flex;
+  gap: 3rem;
+}
+
+footer .col-2 p {
+  padding-bottom: 0.5rem;
+  font-weight: 100;
+}

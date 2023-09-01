@@ -1,0 +1,646 @@
+:root {
+  --primary-color: rgb(255, 0, 191) !important;
+  --primary-dark: rgb(117, 2, 89) !important;
+}
+
+body {
+  background: white;
+  margin: 0;
+  font-family: "Poppins";
+}
+
+.navbar {
+  background: white;
+  padding: 1em;
+  height: 10vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border: 1px solid lightgray;
+  border-right: none;
+}
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar .container .logo {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-left: 1em;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 3em;
+  color: var(--primary-color);
+}
+.navbar .container .logo :hover {
+  color: var(--primary-dark);
+}
+.navbar .container .search-bar {
+  border: 1px solid black;
+  border-radius: 20px;
+  height: 3em;
+  width: 17em;
+  align-self: center;
+}
+.navbar .container .navigation {
+  display: flex;
+}
+.navbar .container .navigation .primary-nav {
+  display: flex;
+  align-items: center;
+  margin-right: 15em;
+}
+.navbar .container .navigation .primary-nav li {
+  display: flex;
+  border-left: 1px solid lightgray;
+  height: 82%;
+  padding: 1em;
+  font-weight: bold;
+  justify-content: center;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.navbar .container .navigation .primary-nav li :hover {
+  cursor: pointer;
+  color: purple;
+}
+
+.hero {
+  margin-top: 3em;
+}
+.hero .container {
+  margin-left: 11em;
+  margin-right: 11em;
+  max-width: 100%;
+  display: flex;
+  margin-bottom: 3rem;
+}
+.hero .container img {
+  width: 40%;
+}
+.hero .container .right-col {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+}
+.hero .container .right-col .subhead {
+  font-family: LyftProUI, sans-serif;
+  margin-right: 1em;
+  margin-top: 1em;
+  display: flex;
+  font-weight: bolder;
+  font-size: 4em;
+  justify-content: space-between;
+  border: 1px;
+  padding: 12px;
+  position: relative;
+  width: 204px;
+  float: left;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.hero .container .right-col .hero-cta {
+  display: flex;
+  gap: 1em;
+}
+.hero .container .right-col .hero-cta .primary-cta1 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-right: 1em;
+  margin-left: 1em;
+  font-family: LyftProUI, sans-serif;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  border: 5px solid #523be4;
+  padding: 5px;
+  border-radius: 20px;
+  height: 3em;
+  width: 19em;
+  background-color: #523be4;
+  height: 50px;
+  width: 120px;
+  color: whitesmoke;
+}
+
+.hero .container .right-col .hero-cta .primary-cta2 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-right: 1em;
+  margin-left: 1em;
+  color: black;
+  font-family: LyftProUI, sans-serif;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  height: 3em;
+  width: 17em;
+  background-color: white;
+  height: 50px;
+  width: 120px;
+  color: black;
+}
+
+.features-section {
+  display: flex;
+  margin-top: 1em;
+  background-color: #f4f4fa;
+}
+.features-section .container {
+  margin-top: 3em;
+  margin-left: 10em;
+  padding-top: 5rem;
+  display: flex;
+  gap: 5em;
+  margin-bottom: 5rem;
+}
+.features-section .container .left-col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: left;
+  margin-left: 3em;
+}
+.features-section .container .left-col .head {
+  display: flex;
+  font-family: LyftProUI, sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+}
+.features-section .container .left-col .subhead {
+  display: flex;
+  font-family: LyftProUI, sans-serif;
+  font-weight: bolder;
+  font-size: 2em;
+}
+.features-section .container .left-col .features-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+}
+.features-section .container .left-col .features-list li {
+  display: flex;
+
+  margin-top: 1em;
+  gap: 1em;
+}
+.features-section .container .left-col .hero-cta2 {
+  display: flex;
+}
+.features-section .container .left-col .hero-cta2 .primary-cta3 {
+  display: flex;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-right: 1em;
+  margin-left: 1em;
+  margin-top: 2rem;
+  font-family: LyftProUI, sans-serif;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  border: 1px solid #523be4;
+  border-radius: 20px;
+  height: 3em;
+  width: 17em;
+  background-color: #523be4;
+  height: 50px;
+  width: 120px;
+  color: whitesmoke;
+}
+.features-section .container .left-col .hero-cta2 .apply-todrive-cta {
+  display: flex;
+  font-weight: bold;
+  margin-top: 3em;
+  text-decoration: underline;
+}
+.features-section .container .left-col .hero-cta2 .apply-todrive-cta > i {
+  margin-top: 4px;
+  text-decoration: none;
+}
+.features-section .container .right-col {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.testimonials-section {
+  display: flex;
+  padding-top: 1em;
+  background-color: #f4f4fa;
+}
+.testimonials-section .container {
+  display: flex;
+  margin-bottom: 5em;
+}
+.testimonials-section .container ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 3em;
+  padding-left: 4rem;
+}
+body > section.testimonials-section > div > ul > li:nth-child(2) > img {
+  padding-left: 1rem;
+  width: 20%;
+}
+body > section.testimonials-section > div > ul > li:nth-child(3) > img {
+  width: 17%;
+}
+body > section.testimonials-section > div > ul > li:nth-child(1) > img {
+  width: 22%;
+}
+.testimonials-section .container ul li {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  text-justify: center;
+  text-align: center;
+  margin-left: 2em;
+}
+.testimonials-section .container ul li img {
+  width: 10%;
+  display: flex;
+  margin-left: 10rem;
+}
+
+.mobile-section {
+  display: flex;
+  margin-top: 1em;
+}
+.mobile-section .container {
+  display: flex;
+  margin-left: 10rem;
+  margin-bottom: 5rem;
+  margin-top: 3rem;
+}
+.mobile-section .container .left-col {
+  display: flex;
+  margin-top: 2rem;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: left;
+  margin-left: 2rem;
+}
+.mobile-section .container .left-col h3 {
+  display: flex;
+  font-family: LyftProUI, sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+}
+.mobile-section .container .left-col h1 {
+  display: flex;
+  font-family: LyftProUI, sans-serif;
+  font-weight: bolder;
+  font-size: 2em;
+}
+.mobile-section .container .left-col h5 {
+  display: flex;
+  font-family: LyftProUI, sans-serif;
+  font-size: 1em;
+}
+.mobile-section .container .left-col .features-list2 {
+  display: flex;
+  font-family: LyftProUI, sans-serif;
+  margin-top: 1em;
+  flex-direction: column;
+  gap: 1em;
+  margin-bottom: 2em;
+}
+
+body
+  > section.mobile-section
+  > div
+  > div.left-col
+  > ul
+  > li:nth-child(2)
+  > p
+  > i {
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+body
+  > section.mobile-section
+  > div
+  > div.left-col
+  > ul
+  > li:nth-child(1)
+  > p
+  > i {
+  padding-right: 1.5rem;
+  padding-bottom: 1rem;
+}
+body
+  > section.mobile-section
+  > div
+  > div.left-col
+  > ul
+  > li:nth-child(3)
+  > p
+  > i {
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+.mobile-section .container .left-col .hero-cta4 {
+  display: flex;
+  padding-left: 1em;
+}
+.mobile-section .container .left-col .hero-cta4 .primary-cta {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-family: LyftProUI, sans-serif;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  border: 1px solid #523be4;
+  border-radius: 20px;
+  height: 3em;
+  margin-top: 2em;
+  background-color: #523be4;
+  height: 50px;
+  width: 150px;
+  justify-content: center;
+  padding-left: 2em;
+  justify-content: space-between;
+  color: whitesmoke;
+  gap: 3em;
+}
+.mobile-section .container .left-col .hero-cta4 .apply-todrive-cta {
+  display: flex;
+  font-weight: bold;
+  margin-top: 3em;
+  text-decoration: underline;
+  margin-left: 2em;
+}
+.mobile-section .container .right-col img {
+  display: flex;
+  width: 50%;
+  margin-left: 10em;
+  margin-top: 2rem;
+}
+
+.red-carpet {
+  display: flex;
+}
+.red-carpet .container {
+  display: flex;
+}
+.red-carpet .container .left-col img {
+  display: flex;
+  width: 70%;
+  margin-top: 2rem;
+  padding-right: 2rem;
+
+  margin-left: 14em;
+}
+.red-carpet .container .right-col {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10em;
+  margin-left: 7em;
+  align-items: flex-start;
+}
+.red-carpet .container .right-col h3 {
+  display: flex;
+  font-family: LyftProUI, sans-serif;
+  font-weight: bolder;
+  font-size: 2em;
+  gap: 2em;
+}
+.red-carpet .container .right-col h1 {
+  display: flex;
+  font-family: LyftProUI, sans-serif;
+  font-size: 1em;
+  gap: 1em;
+}
+.red-carpet .container .right-col .List {
+  display: flex;
+  margin-bottom: 1em;
+  font-family: LyftProUI, sans-serif;
+  font-size: 1em;
+  flex-direction: column;
+  gap: 1em;
+}
+.red-carpet .container .right-col .List li {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+  gap: 1em;
+}
+body > section.red-carpet > div > div.right-col > ul > li:nth-child(1) > b > i {
+  padding-right: 1rem;
+}
+body > section.red-carpet > div > div.right-col > ul > li:nth-child(2) > b > i {
+  padding-right: 1rem;
+}
+body > section.red-carpet > div > div.right-col > ul > li:nth-child(3) > b > i {
+  padding-right: 1rem;
+}
+body > section.red-carpet > div > div.right-col > ul > li:nth-child(4) > b > i {
+  padding-right: 1rem;
+}
+.red-carpet .container .right-col .hero-pro {
+  display: flex;
+  flex-direction: column;
+}
+.red-carpet .container .right-col .hero-pro .primary-cta5 {
+  display: flex;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-right: 1em;
+  margin-left: 1em;
+  margin-top: 2rem;
+  font-family: LyftProUI, sans-serif;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(66, 39, 187);
+  border-radius: 20px;
+  height: 3em;
+  width: 35em;
+  background-color: rgb(66, 39, 187);
+  height: 50px;
+  width: 300px;
+  color: whitesmoke;
+}
+.red-carpet .container .right-col .hero-pro h1 {
+  display: flex;
+  font-family: LyftProUI, sans-serif;
+  text-decoration: underline;
+  flex-direction: column;
+  margin-top: 1em;
+}
+
+.name-section {
+  display: flex;
+  margin-top: 2em;
+}
+.name-section .container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5em;
+}
+.name-section .container h1 {
+  display: flex;
+  font-family: LyftProUI, sans-serif;
+  font-weight: bolder;
+  font-size: 2em;
+}
+.name-section .container h3 {
+  display: flex;
+  font-family: LyftProUI, sans-serif;
+  font-size: 1em;
+}
+
+.car-section {
+  display: flex;
+  margin-top: 1em;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.car-section .container {
+  border: 1px solid white;
+  border-radius: 25px;
+  margin-left: 5em;
+  height: 200px;
+  width: 400px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 2em;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.car-section .container img {
+  width: 20%;
+  margin-left: 10em;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  padding-bottom: 1rem;
+}
+.car-section .container b {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+}
+.car-section .container p {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  text-justify: center;
+  text-align: center;
+  margin-left: 2em;
+}
+
+.Seafty-section {
+  display: flex;
+  margin-bottom: 6em;
+  background-color: #f4f4fa;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.Seafty-section .container {
+  display: flex;
+  flex-direction: column;
+}
+.Seafty-section .container .left-col {
+  display: flex;
+}
+.Seafty-section .container .left-col img {
+  width: 40%;
+  display: flex;
+  margin-left: 15em;
+}
+.Seafty-section .right-col {
+  display: flex;
+
+  flex-direction: column;
+  margin-right: 15rem;
+}
+.Seafty-section .right-col h1 {
+  display: flex;
+  font-family: LyftProUI, sans-serif;
+  font-weight: bold;
+}
+.Seafty-section .right-col h3 {
+  display: flex;
+  font-family: LyftProUI, sans-serif;
+  font-weight: bolder;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+.Seafty-section .right-col p {
+  display: flex;
+  font-family: LyftProUI, sans-serif;
+}
+.Seafty-section .right-col .primary-cta {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-right: 1em;
+  margin-top: 2rem;
+  font-family: LyftProUI, sans-serif;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(66, 39, 187);
+  border-radius: 20px;
+  height: 3em;
+  width: 35em;
+  background-color: rgb(66, 39, 187);
+  height: 50px;
+  width: 200px;
+  color: whitesmoke;
+}
+.Seafty-section .right-col .apply-todrive-cta {
+  display: flex;
+  font-family: LyftProUI, sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+  flex-direction: column;
+  margin-left: 15em;
+  margin-top: -2em;
+}
+
+.red-hair {
+  display: flex;
+}
+.red-hair .container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10em;
+}
+.red-hair .container img {
+  margin-left: 15em;
+  width: 70%;
+  margin-right: 10em;
+  margin-bottom: 3em;
+}
+.red-hair .container h3 {
+  display: flex;
+  font-family: LyftProUI, sans-serif;
+  font-weight: bolder;
+  font-size: 1.5em;
+  margin-left: 10em;
+  margin-bottom: 1em;
+}
+.red-hair .container h1 {
+  display: flex;
+  font-family: LyftProUI, sans-serif;
+  margin-left: 15em;
+  margin-right: 15em;
+  margin-bottom: 1em;
+}
+.red-hair .container p {
+  display: flex;
+  font-family: LyftProUI, sans-serif;
+  margin-left: 18em;
+  font-weight: bold;
+  text-decoration: underline;
+} /*# sourceMappingURL=main.css.map */
