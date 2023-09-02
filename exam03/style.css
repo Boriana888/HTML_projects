@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import "https://use.fontawesome.com/releases/v6.1.2/css/all.css";
+
+body {
+  font-family: Arial, sans-serif;
+}
+.navigation {
+  display: flex;
+  border-bottom: 2px solid lightgray;
+  position: sticky;
+}
+.logo {
+  margin-top: 1rem;
+  margin-left: 3rem;
+
+  font-weight: bolder;
+  font-size: 22px;
+  margin-right: 60rem;
+}
+.menu {
+  display: flex;
+  font-weight: bolder;
+  margin-top: 1.3rem;
+  gap: 2rem;
+  justify-content: flex-end;
+}
+
+/*HERO*/
+.container {
+  background-color: #85dcff;
+  display: flex;
+}
+.hero {
+  display: flex;
+  margin-left: 10rem;
+}
+.left-col {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 3rem;
+  padding-left: 5rem;
+  padding-right: 3rem;
+  margin-right: 5rem;
+}
+.left-col > h2 {
+  padding-bottom: 2rem;
+}
+.right-col {
+  display: flex;
+  float: right;
+}
+.paw {
+  float: right;
+}
+.buton {
+  display: flex;
+  gap: 2rem;
+  padding-top: 5rem;
+}
+.btn {
+  width: 30%;
+  border: 2px solid black;
+  border-radius: 6px;
+  background-color: white;
+  font-weight: bolder;
+  padding: 1rem;
+}
+.butn {
+  width: 40%;
+  border: 2px solid black;
+  border-radius: 6px;
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+  padding: 1rem;
+}
+.white {
+  text-align: center;
+  padding-top: 2rem;
+}
+.white > p {
+  font-weight: bold;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+.it {
+  display: flex;
+}
+.icons {
+  padding-bottom: 3rem;
+  text-align: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.icons > i {
+  color: #85dcff;
+  padding-bottom: 1rem;
+}
+.icons > h2 {
+  margin: 1rem;
+
+  margin-bottom: 1rem;
+}
+/*BULET*/
+.bulets {
+  background-color: #85dcff;
+  padding-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bulets > .wrapper {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  flex-direction: column;
+}
+.bullet-list {
+  /* width: 50%; */
+  display: flex;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.bullet-list > ul {
+  width: 50%;
+}
+.bullet-list > ul > li {
+  font-size: 18px;
+  margin-bottom: 1rem;
+}
+
+.bullet-list > ul > li::marker {
+  font-size: 4rem;
+}
+
+.white-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*animals*/
+
+.animals > h2 {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+.animals > h4 {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.animal-images {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.animal-images > img {
+  width: 22%;
+}
+
+.work {
+  display: flex;
+  justify-content: center;
+}
+
+.work > .wrapper {
+  width: 65%;
+}
+
+.work > .wrapper > .cards-container > .card {
+  border-radius: 4px;
+  border: 1px solid lightgray;
+  margin-top: 2rem;
+}
+
+.work > .wrapper > .cards-container > .card > h4 {
+  background-color: #85dcff;
+  padding: 1rem 0.6rem;
+}
+
+.work > .wrapper > .cards-container > .card > p {
+  padding: 1rem;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.help-section {
+  margin-top: 5rem;
+}
+
+.help-section > .wrapper {
+  display: flex;
+}
+
+.help-dog-img {
+  width: 60%;
+}
+
+.help-right-col > .help-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.help-right-col > .help-contact > input {
+  width: 10rem;
+  border-radius: 4px;
+  border-color: lightgray;
+}
+
+footer .media {
+  display: flex;
+  justify-content: space-between;
+}
